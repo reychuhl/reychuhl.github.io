@@ -1,0 +1,27 @@
+h1{
+    font-size: 10em;
+    color: pink;
+    font-style: bold;
+    text-shadow: 3px 4px 5px magenta;
+}
+
+.menu{
+    display: inline;
+    background-color: grey;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom:10px;
+    transition-duration: 300ms;
+    transition-property: border-bottom, opacity;
+    transition-timing-function: linear
+}
+
+.menu:hover{
+    border-bottom: 5px solid blue;
+
+}

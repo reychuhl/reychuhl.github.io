@@ -1,0 +1,94 @@
+h1{
+    font-size: 3em;
+    color: plum;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: Helvetica, Arial;
+    text-decoration: underline overline;
+    text-transform: capitalize;
+    text-shadow: 3px 4px 6px indigo;
+    border: 5px dashed orange;
+    padding: 12px;
+    margin: 10px;
+    transition-property: text-shadow;
+    transition-timing-function: linear;
+    transition-duration: 50ms;
+};
+
+.riseup{
+    font-size: 2em;
+    text-shadow: 0px 0px 0px orangered;
+    transition-property: text-shadow;
+    transition-duration: 30ms;
+    transition-timing-function: linear;
+
+
+}
+
+.riseup:hover{
+    text-shadow: 10px 10px 10px purple;
+}
+
+}
+
+li{
+    background-color: turquoise;
+    padding: 12px;
+    margin: 10px;
+    font-family: Helvetica, Arial;
+}
+
+.red-color {color: red;
+}
+
+.blue-color {color:blue;}
+
+.text-decoration {text-decoration: underline;
+}
+
+.my-box {
+    background-color: blue;
+    border: 10px; 
+    width: 10px;
+    border-style: groove;
+    color: pink;
+}
+
+.square {
+    border: 5px red solid ;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    transition-property: border-radius, background-color, border;
+    transition-duration: 5000ms;
+    transition-timing-function: linear;
+
+}
+
+.square:hover{
+background-color: purple;
+border-radius: 150px;
+border: 5px orange dashed;
+}
+
+.circle {
+    border-radius: 150px;
+    width: 200px;
+    height: 200px;
+    border: 5px orange dotted;
+    background-color: purple;
+
+}
+p:before{
+
+}
+
+a::after{
+    content: "[LINK]"
+}
+
+li{
+    display: inline;
+    
+}
